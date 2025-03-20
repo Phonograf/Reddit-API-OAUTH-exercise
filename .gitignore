@@ -1,0 +1,5 @@
+#DOTENV_IGNORE
+./api_credentials.env
+#PROJECT_IGNORE
+.venv/
+.idea/
