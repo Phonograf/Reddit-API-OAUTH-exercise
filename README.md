@@ -9,32 +9,33 @@ This script demonstrates how to authenticate with Reddit API using OAuth and fet
 Please consider to use **only one** of the variants
    - For OS Windows, run `Prepare_venv.bat`
    - For OS Windows, run in terminal
-         1. Create a virtual environment
-        ```bash
-        python3 -m venv .venv
+
+     1. Create a virtual environment
+        ```bash 
+        python3 -m venv .venv 
         ```
-         2. Activate the virtual environment
+     2. Activate the virtual environment
         ```bash
         .venv\Scripts\activate
-      ```
-         3. Install dependencies
+        ```
+      3. Install dependencies
         ```bash
         pip install -r requirements.txt
-      ```
+        ```
    - For macOS or Linux
    
       1. Create a virtual environment
-   ```bash
-     python3 -m venv .venv
-   ```
+         ```bash
+         python3 -m venv .venv
+         ```
       2. Activate the virtual environment
-     ```bash
-     source .venv/bin/activate
-     ```
+        ```bash
+        source .venv/bin/activate
+        ```
       3. Install dependencies
-     ```bash
-     pip install -r requirements.txt
-   ```
+        ```bash
+        pip install -r requirements.txt
+        ```
    
 3. Register an app on [Reddit Developer](https://www.reddit.com/prefs/apps).
    - Use **script** as the type.
